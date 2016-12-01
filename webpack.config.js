@@ -19,6 +19,10 @@ const config = {
   module : {
     loaders : [
       {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass']
+      },
+      {
         test : /\.jsx?/,
         include : APP_DIR,
         loader : 'babel'
