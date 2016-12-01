@@ -22056,7 +22056,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../../../~/css-loader!./../../../../~/sass-loader!./main.scss */ 180);
+	var content = __webpack_require__(/*! !./../../../../~/css-loader!./../../../../~/sass-loader!./../../../../~/extract-text-webpack-plugin/loader.js?{"remove":true}!./../../../../~/css-loader!./../../../../~/sass-loader!./main.scss */ 180);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../../../~/style-loader/addStyles.js */ 182)(content, {});
@@ -22065,8 +22065,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/sass-loader/index.js!./main.scss", function() {
-				var newContent = require("!!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/sass-loader/index.js!./main.scss");
+			module.hot.accept("!!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/sass-loader/index.js!./../../../../node_modules/extract-text-webpack-plugin/loader.js?{\"remove\":true}!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/sass-loader/index.js!./main.scss", function() {
+				var newContent = require("!!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/sass-loader/index.js!./../../../../node_modules/extract-text-webpack-plugin/loader.js?{\"remove\":true}!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/sass-loader/index.js!./main.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -22077,9 +22077,9 @@
 
 /***/ },
 /* 180 */
-/*!********************************************************************************!*\
-  !*** ./~/css-loader!./~/sass-loader!./src/client/assets/stylesheets/main.scss ***!
-  \********************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./~/css-loader!./~/sass-loader!./~/extract-text-webpack-plugin/loader.js?{"remove":true}!./~/css-loader!./~/sass-loader!./src/client/assets/stylesheets/main.scss ***!
+  \*************************************************************************************************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(/*! ./../../../../~/css-loader/lib/css-base.js */ 181)();
@@ -22087,7 +22087,7 @@
 	
 	
 	// module
-	exports.push([module.id, "h1 {\n  color: red; }\n\ndiv {\n  border: 1px solid red;\n  border-radius: 5px;\n  margin: 10px; }\n", ""]);
+	exports.push([module.id, "", ""]);
 	
 	// exports
 
