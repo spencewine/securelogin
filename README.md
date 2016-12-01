@@ -13,11 +13,15 @@ Before you get started, you will need npm and node installed locally on your dev
     
     npm install 
 
-#### Step 3: Start the server
+#### Step 3: Build/Compile Your Code
+
+    npm run dev
+
+#### Step 4: Start the server
 
     npm start
 
-#### Step 4: Checkout your app
+#### Step 5: Checkout your app
 
 Go to localhost:3001
 
