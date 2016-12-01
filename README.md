@@ -6,7 +6,7 @@ Before you get started, you will need npm and node installed locally on your dev
 
 #### Step 1: Clone the repository and cd into folder:
 
-    git clone https://github.com/dejongnj/dj-react.git
+    git clone https://github.com/dejongnj/react-app.git
     cd react-app
 
 #### Step 2: Install the dependencies
