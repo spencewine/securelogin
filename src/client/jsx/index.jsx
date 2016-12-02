@@ -1,15 +1,7 @@
-import React, { Component } from 'react';
-import {render} from 'react-dom';
-import style from '../assets/stylesheets/main.scss';
+/* global document */
+import React from 'react';
+import { render } from 'react-dom';
+import style from '../assets/stylesheets/main.scss'; // eslint-disable-line
+import App from './components/App';
 
-class App extends Component {
-  render () {
-    return (
-      <div>
-        <h1>This is a React App!</h1>
-      </div>
-    );
-  }
-}
-
-render(<App/>, document.getElementById('app'));
+render(<App />, document.getElementById('app'));
