@@ -7,7 +7,7 @@
     "start": "nodemon app.js",
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "test": "mocha tests --recursive"
+    "test": "mocha tests tests/client/helpers/globalTestVariables.js --recursive"
   },
   "keywords": [],
   "author": "",
