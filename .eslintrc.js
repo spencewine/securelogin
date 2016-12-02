@@ -5,7 +5,7 @@ module.exports = {
   },
   "rules": {
     "import/no-extraneous-dependencies": 0,
-    // "react/jsx-filename-extension": 0,
+    "react/jsx-filename-extension": 0,
     "no-plusplus": 0,
     "func-names": 0,
     "no-param-reassign": 0,
