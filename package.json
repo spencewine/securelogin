@@ -4,7 +4,7 @@
   "description": "A basic app to get you up and running able to deploy to heroku",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon app.js || webpack -d --watch",
     "dev": "webpack -d --watch",
     "build": "webpack -p",
     "test": "mocha tests tests/client/helpers/globalTestVariables.js --recursive"
