@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Navbar from './Navbar';
 
-const App = () => (
-  <div id="app-root">
-    <h1>This is a React App!!!!</h1>
-  </div>
-);
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      dummyState: '',
+    };
+  }
+
+  render() {
+    return (
+      <div id="app-root">
+        <Navbar />
+        <div>
+          { this.props.children ? this.props.children : null }
+        </div>
+      </div>
+    );
+  }
+}
+
+App.propTypes = {
+  children: React.PropTypes.element.isRequired,
+};
+
 
 export default App;
