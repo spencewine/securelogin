@@ -11,7 +11,7 @@ Before you get started, you will need npm and node installed locally on your dev
     
     npm install 
 
-#### Step 3: Create and then seed your database
+#### Step 3: Create your database "secureApp" and then seed your database
     
     node seed.js
 
@@ -26,11 +26,3 @@ Before you get started, you will need npm and node installed locally on your dev
 #### Step 6: Checkout your app
 
 Go to localhost:3001
-
-## Getting Started With Development
-
-The index.jsx in src/client/jsx is the entry point into your react. While you develop you should have two terminals running:
-
-Your first terminal is where you run your server with npm start as above. In a separate terminal window rn webpack (installed during npm install) using the command:
-
-    npm run dev
