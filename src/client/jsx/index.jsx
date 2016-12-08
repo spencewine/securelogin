@@ -4,14 +4,17 @@ import { render } from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import style from '../assets/stylesheets/main.scss'; // eslint-disable-line
 import App from './components/App';
-import About from './components/About';
+import SignupForm from './components/SignupForm';
+import LoginForm from './components/LoginForm';
+// import LoginForm from './components/LoginForm';
 import Home from './components/Home';
 
 const rootRouter = (
   <Router history={browserHistory} >
     <Route path="/" component={App} >
       <IndexRoute component={Home} />
-      <Route path="/about" component={About} />
+      <Route path="/signup" component={SignupForm} />
+      <Route path="/login" component={LoginForm} />
     </Route>
   </Router>
 );

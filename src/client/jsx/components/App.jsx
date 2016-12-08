@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div id="app-root">
         <Navbar />
-        <div>
+        <div className="container">
           { this.props.children ? this.props.children : null }
         </div>
       </div>
