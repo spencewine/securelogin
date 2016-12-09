@@ -9,4 +9,3 @@ module.exports = db.define('user', {
     type: Sequelize.STRING
   }
 });
-
