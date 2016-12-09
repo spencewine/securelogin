@@ -5,5 +5,8 @@ module.exports = db.define('user', {
   email: {
     type: Sequelize.STRING,
   },
+  password: {
+    type: Sequelize.STRING
+  }
 });
 
